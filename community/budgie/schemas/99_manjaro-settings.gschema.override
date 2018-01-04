@@ -1,21 +1,24 @@
 [com.solus-project.budgie-panel]
 builtin-theme=false
-dark-theme=true
+dark-theme=false
 
 [com.solus-project.icon-tasklist]
 pinned-launchers=['firefox.desktop', 'hexchat.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop']
 
 [org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/budgieDark_1920x1080.png'
+picture-uri='file:///usr/share/backgrounds/manjaro-budgie/manjaro-budgie.jpg'
 show-desktop-icons=false
 
+[org.gnome.desktop.screensaver]
+picture-uri='file:///usr/share/backgrounds/manjaro-budgie/manjaro-nologo.jpg'
+
 [org.gnome.desktop.interface]
-cursor-theme='Breeze'
+cursor-theme='xcursor-breeze'
 document-font-name='Sans 11'
 enable-animations=true
 font-name='Cantarell 11'
 gtk-im-module='gtk-im-context-simple'
-gtk-theme='Arc-Maia-Dark'
+gtk-theme='Adapta-Maia'
 icon-theme='Arc-Maia'
 monospace-font-name='Monospace 11'
 
@@ -31,4 +34,13 @@ visible-name='manjaro'
 
 [org.gnome.nautilus.icon-view]
 default-zoom-level='small'
+
+[x.dm.slick-greeter]
+background="/usr/share/backgrounds/manjaro-budgie/manjaro-budgie.jpg"
+theme-name="Adapta-Nokto-Maia"
+icon-theme-name="Arc-Maia"
+font-name="Cantarell Regular 10"
+
+[org/gtk/Settings/FileChooser]
+sort-directories-first=true
 

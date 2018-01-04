@@ -10,7 +10,7 @@ picture-options='stretched'
 picture-uri='file:///usr/share/backgrounds/cinnamon_default.jpg'
 
 [org.cinnamon.desktop.interface]
-cursor-theme='Breeze'
+cursor-theme='xcursor-breeze'
 font-name='Cantarell 10'
 gtk-theme='Vertex-Maia-Dark'
 icon-theme='Vibrancy-Full-Dark-Teal'
@@ -85,3 +85,6 @@ computer-icon-visible=true
 home-icon-visible=true
 trash-icon-visible=false
 volumes-visible=true
+
+[org.nemo.preferences]
+bulk-rename-tool=[]

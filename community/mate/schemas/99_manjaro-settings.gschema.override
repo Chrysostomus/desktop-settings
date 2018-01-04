@@ -1,18 +1,18 @@
 [org.mate.background]
-picture-filename='/usr/share/backgrounds/mate-community.png'
+picture-filename='/usr/share/backgrounds/manjaro-mate/manjaro-mate.jpg'
 picture-options='stretched'
 
 [org.mate.interface]
-gtk-theme='Arc-Maia-Darker'
+gtk-theme='Adapta-Maia'
 icon-theme='Arc-Maia'
 
 [org.mate.Marco.general]
-theme='Arc-Maia-Darker'
+theme='Adapta-Maia'
 compositing-fast-alt-tab=true
 compositing-manager=true
 
 [org.mate.peripherals-mouse]
-cursor-theme='Breeze'
+cursor-theme='xcursor-breeze'
 
 [org.mate.peripherals-touchpad]
 tap-to-click=true 
@@ -96,4 +96,11 @@ object-type='applet'
 
 [org.mate.NotificationDaemon]
 theme='slate'
+
+[x.dm.slick-greeter]
+background="/usr/share/backgrounds/manjaro-mate/manjaro-mate.jpg"
+theme-name="Adapta-Nokto-Maia"
+icon-theme-name="Arc-Maia"
+font-name="Cantarell Regular 10"
+
 
