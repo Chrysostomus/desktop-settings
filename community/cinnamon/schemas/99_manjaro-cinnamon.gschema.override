@@ -1,6 +1,6 @@
 [org.cinnamon]
 alttab-switcher-style='thumbnails+preview'
-enabled-applets=['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:1:separator@cinnamon.org:1', 'panel1:left:2:panel-launchers@cinnamon.org:2', 'panel1:left:3:separator@cinnamon.org:3', 'panel1:left:4:expo@cinnamon.org:4', 'panel1:left:5:show-desktop@cinnamon.org:5', 'panel1:left:6:window-list@cinnamon.org:6', 'panel1:right:0:notifications@cinnamon.org:7', 'panel1:right:1:workspace-switcher@cinnamon.org:8', 'panel1:right:2:windows-quick-list@cinnamon.org:9', 'panel1:right:3:separator@cinnamon.org:10', 'panel1:right:4:removable-drives@cinnamon.org:11', 'panel1:right:5:systray@cinnamon.org:12', 'panel1:right:6:separator@cinnamon.org:13', 'panel1:right:7:network@cinnamon.org:14', 'panel1:right:8:sound@cinnamon.org:15', 'panel1:right:9:power@cinnamon.org:16', 'panel1:right:10:inhibit@cinnamon.org:17', 'panel1:right:11:calendar@cinnamon.org:18', 'panel1:right:12:user@cinnamon.org:19']
+enabled-applets=['panel1:left:0:menu@cinnamon.org:0', 'panel1:left:1:separator@cinnamon.org:1', 'panel1:left:2:panel-launchers@cinnamon.org:2', 'panel1:left:3:separator@cinnamon.org:3', 'panel1:left:4:expo@cinnamon.org:4', 'panel1:left:5:show-desktop@cinnamon.org:5', 'panel1:left:6:window-list@cinnamon.org:6', 'panel1:right:0:notifications@cinnamon.org:7', 'panel1:right:1:workspace-switcher@cinnamon.org:8', 'panel1:right:2:windows-quick-list@cinnamon.org:9', 'panel1:right:3:separator@cinnamon.org:10', 'panel1:right:4:systray@cinnamon.org:11', 'panel1:right:5:separator@cinnamon.org:12', 'panel1:right:6:removable-drives@cinnamon.org:13', 'panel1:right:7:network@cinnamon.org:14', 'panel1:right:8:sound@cinnamon.org:15', 'panel1:right:9:power@cinnamon.org:16', 'panel1:right:10:inhibit@cinnamon.org:17', 'panel1:right:11:calendar@cinnamon.org:18', 'panel1:right:12:user@cinnamon.org:19']
 next-applet-id=20
 panels-resizable=['1:true']
 panels-height=['1:30']
@@ -10,9 +10,9 @@ picture-options='stretched'
 picture-uri='file:///usr/share/backgrounds/cinnamon_default.jpg'
 
 [org.cinnamon.desktop.interface]
-cursor-theme='xcursor-breeze'
+cursor-theme='xcursor-breeze-snow'
 font-name='Cantarell 10'
-gtk-theme='Vertex-Maia-Dark'
+gtk-theme='Adapta-Nokto-Eta-Maia'
 icon-theme='Vibrancy-Full-Dark-Teal'
 
 [org.cinnamon.desktop.screensaver]
@@ -25,14 +25,14 @@ use-custom-format=true
 
 [org.cinnamon.desktop.sound]
 theme-name="LinuxMint"
-event-sounds=false
+event-sounds=true
 input-feedback-sounds=false
 volume-sound-enabled=true
 volume-sound-file="/usr/share/sounds/LinuxMint/stereo/volume.oga"
 
 [org.cinnamon.desktop.wm.preferences]
 num-workspaces=2
-theme='Vertex-Maia-Dark'
+theme='Adapta-Nokto-Eta-Maia'
 titlebar-font='Cantarell 10'
 
 [org.cinnamon.sounds]
@@ -62,7 +62,7 @@ notification-enabled=true
 notification-file="/usr/share/sounds/LinuxMint/stereo/notification.oga"
 
 [org.cinnamon.theme]
-name='Vertex-Maia'
+name='Adapta-Nokto-Maia'
 
 [org.gnome.desktop.sound]
 theme-name="LinuxMint"
@@ -70,14 +70,12 @@ event-sounds=false
 input-feedback-sounds=false
 
 [org.gnome.Terminal.Legacy.Profile]
-allow-bold=true
-background-color='rgb(69,70,73)'
+background-color='rgb(0,0,0)'
+foreground-color='rgb(170,179,170)'
+use-transparent-background=true
+background-transparency-percent=25
 use-theme-colors=false
 font='Droid Sans Mono Regular 11'
-foreground-color='rgb(220,233,235)'
-palette=['rgb(0,0,0)', 'rgb(170,0,0)', 'rgb(0,170,0)', 'rgb(170,85,0)', 'rgb(0,0,170)', 'rgb(170,0,170)', 'rgb(0,170,170)', 'rgb(170,170,170)', 'rgb(85,85,85)', 'rgb(255,85,85)', 'rgb(85,255,85)', 'rgb(255,255,85)', 'rgb(85,85,255)', 'rgb(255,85,255)', 'rgb(85,255,255)', 'rgb(255,255,255)']
-rewrap-on-resize=true
-visible-name='manjaro'
 
 [org.nemo.desktop]
 font='Cantarell 10'

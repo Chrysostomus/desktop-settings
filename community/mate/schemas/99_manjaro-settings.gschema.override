@@ -1,10 +1,14 @@
+[com.solus-project.brisk-menu]
+favourites=['firefox.desktop', 'mate-terminal.desktop', 'caja-browser.desktop']
+pinned-shortcuts=['matecc.desktop', 'pamac-manager.desktop']
+
 [org.mate.background]
 picture-filename='/usr/share/backgrounds/manjaro-mate/manjaro-mate.jpg'
 picture-options='stretched'
 
 [org.mate.interface]
 gtk-theme='Adapta-Maia'
-icon-theme='Arc-Maia'
+icon-theme='Papirus-Adapta-Maia'
 
 [org.mate.Marco.general]
 theme='Adapta-Maia'
@@ -16,17 +20,6 @@ cursor-theme='xcursor-breeze'
 
 [org.mate.peripherals-touchpad]
 tap-to-click=true 
-
-[org.mate.terminal.global]
-default-profile='manjaro'
-profile-list=['manjaro']
-
-[org.mate.terminal.profiles.manjaro]
-background-color='#FFFFFFFFDDDD'
-palette='#2E2E34343636:#CCCC00000000:#4E4E9A9A0606:#C4C4A0A00000:#34346565A4A4:#757550507B7B:#060698209A9A:#D3D3D7D7CFCF:#555557575353:#EFEF29292929:#8A8AE2E23434:#FCFCE9E94F4F:#72729F9FCFCF:#ADAD7F7FA8A8:#3434E2E2E2E2:#EEEEEEEEECEC'
-bold-color='#000000000000'
-foreground-color='#000000000000'
-visible-name='Default'
 
 [org.mate.panel]
 default-layout='manjaro'
@@ -42,6 +35,9 @@ start-with-status-bar=true
 [org.mate.panel.general]
 object-id-list=['brisk-menu', 'window-list', 'notification-area', 'clock', 'show-desktop']
 toplevel-id-list=['bottom']
+
+[org.mate.caja.preferences]
+thumbnail-limit=1073741824
 
 [org.mate.panel.toplevels.bottom]
 expand=true
@@ -59,7 +55,6 @@ position=0
 object-type='applet'
 
 [org.mate.panel.objects.clock]
-[org/mate/panel/objects/clock]
 applet-iid='ClockAppletFactory::ClockApplet'
 locked=true
 toplevel-id='bottom'
@@ -100,7 +95,7 @@ theme='slate'
 [x.dm.slick-greeter]
 background="/usr/share/backgrounds/manjaro-mate/manjaro-mate.jpg"
 theme-name="Adapta-Nokto-Maia"
-icon-theme-name="Arc-Maia"
+icon-theme-name="Papirus-Adapta-Maia"
 font-name="Cantarell Regular 10"
 
 
